@@ -1,86 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skills</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
+
 <body>
-    <div id="skills">
-        <div class="container">
-            <img src="Images/BackgroundPicture.avif" alt="background image">
-            <h1 class="sub-title">My Skills</h1>
-            <nav>
-                <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
+    <section id="header" class="hero is-fullheight is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <nav class="navbar has-shadow is-black">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="Images/Logo1.png" alt="Picture of a logo" class="py-2 px-2" style="max-height: 70px;">
+                        </a>
+                        </div>
+                            <div class="navbar-end is-flex-touch">
+                                <a class="navbar-item" href="homepage.html">Home</a>
+                                <a class="navbar-item" href="about.html">About</a>
+                                <a class="navbar-item" href="skills.html">Skills</a>
+                                <a class="navbar-item" href="resume.html">Resume</a>
+                                <a class="navbar-item" href="contact.html">Contact</a>
+                        
+                    </div>
+                </nav>
+                <div class="ind-skills is-flex-row is-flex-wrap-nowrap">
+                    <div class="columns is-multiline">
+                        <div class="column is-12">
+                            <h1 class="title is-2 has-text-centered">My Skills</h1>
+                        </div>
+                        <div class="column is-3">
+                            <div class="software">
+                                <h2 class="title is-3 has-text-white">Software Skills</h2>
+                                <ul class="is-size-4 has-text-weight-bold has-text-black">
+                                    <li class="pb-5">Java</li>
+                                    <li class="pb-5">Python</li>
+                                    <li class="pb-5">HTML</li>
+                                    <li class="pb-5">CSS</li>
+                                    <li class="pb-5">Packet Tracer</li>
+                                    <li class="pb-5">C</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="column is-6">
+                            <div class="volume-container pt-6">
+                                <div class="columns is-multiline mt-4">
+                                    <div class="column is-7">
+                                        <progress class="progress is-dark" value="35" max="50"></progress>
+                                        <p class="has-text-centered"></p>
+                                    </div>
+                                    <div class="column is-7">
+                                        <progress class="progress is-dark" value="38" max="50"></progress>
+                                        <p class="has-text-centered"></p>
+                                    </div>
+                                    <div class="column is-7">
+                                        <progress class="progress is-dark" value="40" max="50"></progress>
+                                        <p class="has-text-centered"></p>
+                                    </div>
+                                    <div class="column is-7">
+                                        <progress class="progress is-dark" value="35" max="50"></progress>
+                                        <p class="has-text-centered"></p>
+                                    </div>
+                                    <div class="column is-7">
+                                        <progress class="progress is-dark" value="38" max="50"></progress>
+                                        <p class="has-text-centered"></p>
+                                    </div>
+                                    <div class="column is-7">
+                                        <progress class="progress is-dark" value="23" max="50"></progress>
+                                        <p class="has-text-centered"></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
 
-                <ul>
-                    <li><a href="homepage.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li class="special"><a href="#">Skills</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div class="ind-skills">
-            <div class="software">
-                <h2> Software Skills</h2>
-                <ul>
-                    <li>Java</li>
-                    <li>Python</li>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>Packet Tracer</li>
-                    <li>C</li>
-                </ul>
-                <div id="volumeContainer">
-                    <div id="volumeLevel1"></div>
-                    <div id="volumeValue1">80</div> 
-                
-                    <div id="volumeLevel2"></div>
-                    <div id="volumeValue2">85</div>
-                    
-                    <div id="volumeLevel3"></div>
-                    <div id="volumeValue3">90</div> 
-                
-                    <div id="volumeLevel4"></div>
-                    <div id="volumeValue4">85</div>
-                    
-                    <div id="volumeLevel5"></div>
-                    <div id="volumeValue5">90</div> 
-                
-                    <div id="volumeLevel6"></div>
-                    <div id="volumeValue6">50</div> 
-                    
-                  </div>
-                
-            </div>
-            <div class="check1">
-                <h2>Languages</h2>
-                <form action="#">
-                <label for="checkbox1">
-                <input type="checkbox" id="checkbox1" name="checkbox1" checked> Amharic </label>
-                <br />
-                <label for="checkbox2">
-                    <input type="checkbox" id="checkbox2" name="checkbox2" checked>English </label>
-                </form>
-                
-            </div>
+                    <div class="skills-individual-lang-and-comm columns">
+                        <div class="column is-5">
+                            <div class="check1 has-text-black has-text-weight-bold">
+                                <h2 class="title is-3 has-text-white pt-6">Languages</h2>
+                                <form action="#">
+                                    <label for="checkbox1" class="checkbox">
+                                        <input type="checkbox" id="checkbox1" name="checkbox1" checked>
+                                        Amharic
+                                    </label>
+                                    <br />
+                                    <label for="checkbox2" class="checkbox">
+                                        <input type="checkbox" id="checkbox2" name="checkbox2" checked>
+                                        English
+                                    </label>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="column is-5">
+                            <div class="communication has-text-black has-text-weight-bold">
+                                <h2 class="title is-3 has-text-white">Communication Skills</h2>
+                                <ul>
+                                    <li>Team work</li>
+                                    <li>Friendly</li>
+                                    <li>Open Minded</li>
+                                    <li>Responsiveness</li>
+                                    <li>Confident</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="communication">
-                <h2>Communication Skills</h2>
-                <ul>
-                    <li>Team work</li>
-                    <li>Friendly</li>
-                    <li>Open Minded</li>
-                    <li>Responsiveness</li>
-                    <li>Confident</li>
-                </ul>
+                </div>
+
             </div>
         </div>
-        <footer>
-            <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+
+        <footer class="hero-foot has-background-dark py-4">
+            <div class="container">
+                <p class="has-text-white has-text-centered">Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+            </div>
         </footer>
-    </div>
+
+    </section>
 </body>
+
 </html>

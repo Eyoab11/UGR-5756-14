@@ -1,37 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
+
 <body>
-    <div id="header">
-        <div class="container" > 
-            <img src="Images/BackgroundPicture.avif" alt="background for the web">
-            <nav>
-                <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
->
-                <ul>
-                    <li class="special"><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="photo">
-                <img src="Images/robot.jpg" alt="Photo of eyoab amare" >
-            </div>
-            <div class="text">
-                <h1>My name is EYOAB AMARE</h1>
-                <p>I'm a software Engineering Student</p>
+    <section id="header" class="hero is-fullheight is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <nav class="navbar has-shadow is-black ">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="Images/Logo1.png" alt="Picture of a logo" class="py-2 px-2" style="max-height: 70px;">
+                        </a>
+                        </div>
+                            <div class="navbar-end is-flex-touch">
+                                <a class="navbar-item" href="homepage.html">Home</a>
+                                <a class="navbar-item" href="about.html">About</a>
+                                <a class="navbar-item" href="skills.html">Skills</a>
+                                <a class="navbar-item" href="resume.html">Resume</a>
+                                <a class="navbar-item" href="contact.html">Contact</a>
+                        
+                    </div>
+                </nav>
+                <div class="rows">
+                    <div class="column">
+                        <div class="photo">
+                            <img src="Images/robot.jpg" alt="Photo of eyoab amare" class="image is-rounded">
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="text">
+                            <h1 class="title is-1 has-text-white has-text-centered">My name is EYOAB AMARE</h1>
+                            <p class="subtitle is-3 has-text-white has-text-centered">I'm a software Engineering Student</p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <footer>
-            <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+        <footer class="hero-foot has-background-dark py-4">
+            <div class="container">
+                <p class="has-text-white has-text-centered">Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+            </div>
         </footer>
-    </div>
+    </section>
 </body>
 </html>

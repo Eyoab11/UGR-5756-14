@@ -1,59 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
 </head>
+
 <body>
-    <div id="resume">
-        <div class="container">
-            <img src="Images/BackgroundPicture.avif" alt="background image">
-            <div class="navigation">
-                <nav>
-                    <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
-                    <ul>
-                        <li><a href="homepage.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li class="special"><a href="#">Resume</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
+    <section id="header" class="hero is-fullheight is-primary is-bold">
+        <div class="hero-body">
+            <div class="container">
+                <nav class="navbar has-shadow is-black">
+                    <div class="navbar-brand">
+                        <a class="navbar-item">
+                            <img src="Images/Logo1.png" alt="Picture of a logo" class=" px-2" style="max-height: 70px;">
+                        </a>
+                        </div>
+                            <div class="navbar-end is-flex-touch">
+                                <a class="navbar-item" href="homepage.html">Home</a>
+                                <a class="navbar-item" href="about.html">About</a>
+                                <a class="navbar-item" href="skills.html">Skills</a>
+                                <a class="navbar-item" href="resume.html">Resume</a>
+                                <a class="navbar-item" href="contact.html">Contact</a>
+                        
+                    </div>
                 </nav>
-            </div>
-            <div class="boxes">
-                <div class="box1">
-                    <h2>Certificates Awarded</h2>
-                    <ol>
-                        <li>Networking: Cisco Packet Tracer</li>
-                        <li>Networking: Cisco</li>
-                    </ol>
+
+                <div class="resume-boxes columns mt-6">
+                    <div class="column is-4">
+                        <div class="box resume-boxes-box1">
+                            <h2 class="title is-4 has-text-black">Certificates Awarded</h2>
+                            <ol>
+                                <li>Networking: Cisco Packet Tracer</li>
+                                <li>Networking: Cisco</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="box resume-boxes-box2">
+                            <h2 class="title is-4 has-text-black">Courses Completed</h2>
+                            <ol>
+                                <li>Data Structures and Algorithms</li>
+                                <li>Fundamentals of Java</li>
+                                <li>Fundamentals of Python</li>
+                                <li>Fundamentals of Networking</li>
+                                <li>Database</li>
+                                <li>Discrete Mathematics</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <div class="column is-4">
+                        <div class="box resume-boxes-box3">
+                            <h2 class="title is-4 has-text-black">Now Learning</h2>
+                            <ol>
+                                <li>Web Designing</li>
+                                <li>Computer Architecture and Organization</li>
+                                <li>Fundamentals of Software Engineering</li>
+                                <li>Human Computer Interaction</li>
+                            </ol>
+                        </div>
+                    </div>
                 </div>
-                <div class="box2">
-                    <h2>Courses Completed</h2>
-                    <ol>
-                        <li>Data Structures and Algorithms</li>
-                        <li>Fundamentals of Java</li>
-                        <li>Fundamentals of Python</li>
-                        <li>Fundamentals of Networking</li>
-                        <li>Database</li>
-                        <li>Discrete Mathematics</li>
-                    </ol>
-                </div>
-                <div class="box3">
-                    <h2>Now Learing</h2>
-                    <ol>
-                        <li>Web Designing</li>
-                        <li>Computer Architecture and Organization</li>
-                        <li>Fundamentals of Software Engineering</li>
-                        <li>Human Computer Interaction</li>
-                    </ol>
-                </div>
+
             </div>
         </div>
-    </div>
-    <footer>
-        <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
-    </footer>
+
+        <footer class="hero-foot has-background-dark py-6 mt-6">
+            <div class="container">
+                <p class="has-text-white has-text-centered">Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+            </div>
+        </footer>
+    </section>
 </body>
+
 </html>
