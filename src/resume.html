@@ -4,33 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resume</title>
+    <link rel="stylesheet" href="dist/output.css">
 </head>
-<body>
-    <div id="resume">
-        <div class="container">
-            <img src="Images/BackgroundPicture.avif" alt="background image">
-            <div class="navigation">
-                <nav>
-                    <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
-                    <ul>
-                        <li><a href="homepage.html">Home</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="skills.html">Skills</a></li>
-                        <li class="special"><a href="#">Resume</a></li>
-                        <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="boxes">
-                <div class="box1">
-                    <h2>Certificates Awarded</h2>
+<body> 
+   
+        <div class="parent">
+            <nav class="bg-gray-600 flex h-16 md:items-center md:justify-between md:p-5 sm:items-center sm:justify-between">
+                <img src="../Images/Logo1.png" alt="Picture of a logo" class="xl:w-36 sm:w-16 md:w-32 ">
+               <ul class="flex items-center text-white">
+                    <li class="hover:text-black duration-500 md:text-lg md:mx-4 sm:-ml-4 sm:mx-2"><a href="homepage.html">Home</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="about.html">About</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="skills.html">Skills</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="resume.html">Resume</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <h1 class="lg:text-4xl lg:ml-10 lg:mt-10 md:text-2xl md:ml-10 md:mt-8 sm:text-2xl sm:mt-4 sm:ml-5">Resume</h1>
+            <div class="md:flex md:ml-8 md:mt-2 md md:mb-36 sm:mt-8 sm:ml-16 lg:mt-2 lg:mb-36">
+                <div class="md:flex-1 sm:py-6 xl:mb-72 xl:text-xl">
+                    <h2 class="text-red-700 font-bold my-4 lg:text-2xl md:text-xl">Certificates Awarded</h2>
                     <ol>
                         <li>Networking: Cisco Packet Tracer</li>
                         <li>Networking: Cisco</li>
                     </ol>
                 </div>
-                <div class="box2">
-                    <h2>Courses Completed</h2>
+                <div class="md:flex-1 sm:py-6 xl:text-xl">
+                    <h2 class="text-red-700 font-bold my-4 lg:text-2xl md:text-xl">Courses Completed</h2>
                     <ol>
                         <li>Data Structures and Algorithms</li>
                         <li>Fundamentals of Java</li>
@@ -40,8 +39,8 @@
                         <li>Discrete Mathematics</li>
                     </ol>
                 </div>
-                <div class="box3">
-                    <h2>Now Learing</h2>
+                <div class="md:flex-1 sm:py-6 xl:text-xl">
+                    <h2 class="text-red-700 font-bold my-4 lg:text-2xl md:text-xl">Now Learing</h2>
                     <ol>
                         <li>Web Designing</li>
                         <li>Computer Architecture and Organization</li>
@@ -52,8 +51,10 @@
             </div>
         </div>
     </div>
-    <footer>
+    <footer class=" bg-gray-600 py-9 w-full bottom-0 flex items-center justify-center text-white">
+        <div>
         <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+        </div>
     </footer>
 </body>
 </html>

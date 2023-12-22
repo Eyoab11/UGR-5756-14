@@ -4,73 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Me</title>
+    <link rel="stylesheet" href="/dist/output.css">
 </head>
 <body>
-    
-        <div  id="about">
-            <div class="container">
-                <img src="Images/BackgroundPicture.avif" alt="background image">
-                <div class="navigation">
-                    <nav>
-                        <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
-        >
-                        <ul>
-                            <li><a href="homepage.html">Home</a></li>
-                            <li class="special"><a href="#">About</a></li>
-                            <li><a href="skills.html">Skills</a></li>
-                            <li><a href="resume.html">Resume</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+            <div class="parent">
+                <div class="parent"> 
+                    <nav class="bg-gray-600 flex h-16 md:items-center md:justify-between md:p-5 sm:items-center sm:justify-between sm:p-2">
+                        <img src="../Images/Logo1.png" alt="Picture of a logo" class="xl:w-36 sm:w-14 md:w-32 ">
+                       <ul class="flex items-center text-white sm:mx-6">
+                            <li class="hover:text-black duration-500 md:text-lg md:mx-4 sm:-ml-5 sm:mx-2"><a href="homepage.html">Home</a></li>
+                            <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="about.html">About</a></li>
+                            <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="skills.html">Skills</a></li>
+                            <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="resume.html">Resume</a></li>
+                            <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="contact.html">Contact</a></li>
                         </ul>
                     </nav>
                 </div>
-                    <h1 class="sub-title">About Me</h1>
-                
-                <div class="texts">
+                    <h1 class="md:text-4xl text-center mt-5 px-10 sm:text-3xl ">About Me</h1>
+            <div class="md:flex mt-10">
+                <div class="md:text-sm md:ml-10 md:-mr-10 sm:ml-5 sm:mb-6 lg:mt-3 lg:text-xl">
                     <p>Full Name: Eyoab Amare</p>
                     <p>Age: 21</p> 
                     <p>Status: Student</p> 
                     <p>University: Addis Ababa University</p>
                     <p>Address: Addis Ababa, Ethiopia</p>
                 </div>
-            <div class="video">
-                <video controls>
-
-                <source src="Images/video.mp4"></video>
-
+            <div class="flex-1 relative md:-mr-36 md:-mt-28 md:scale-50 sm:scale-75 ">
+                <video controls autoplay>
+                <source src="../Images/video.mp4" type="video/mp4"></video>
+            </div>
             </div>
 
-                <div class="facts">
-                    <div class="fact1">
-                        <img src="Images/image6.jpg" alt="Number of Books i've read" class="f1">
-                        <p>Books I've read</p>
+                <div class="md:flex mx-3 lg:flex items-center lg:mb-16 md:p-6 md:-ml-48 md:scale-75 lg:scale-90">
+                    <div class="mx-3 -mt-8">
+                        <img src="../Images/imagei.jpg" alt="Number of Books i've read" class="rounded-full lg:w-52 lg:h-32 sm:w-28 sm:mt-10 sm:ml-28 md:w-32 md:">
+                        <p class="mt-10 sm:ml-28">Books I've read</p>
                     </div>
-                    <div class="fact2">
-                        <img src="Images/image2.jpg" alt="Movies i've watched" class="f2">
-                        <p>Movies i've watched</p>
+                    <div class="mx-3 ">
+                        <img src="../Images/image2.jpg" alt="Movies i've watched" class="rounded-full lg:w-36 lg:h-36 md:w-28 md:h-28 md:mt-3 sm:w-24 sm:h-24 sm:mt-14 sm:ml-28">
+                        <p class="mt-6 sm:ml-24">Movies i've watched</p>
                     </div>
-                    <div class="fact3">
-                        <img src="Images/image3.jpg" alt="Music i've listened" class="f3">
-                        <p>Music i've listened</p>
+                    <div class="mx-3 -mt-2">
+                        <img src="../Images/image3.jpg" alt="Music i've listened" class="rounded-full lg:w-36 lg:h-36 lg:mt-5 md:w-28 md:h-28 md:mt-4  sm:w-24 sm:h-24 sm:mt-14 sm:ml-28">
+                        <p class="mt-6 sm:ml-24">Music i've listened</p>
                     </div>
-                    <div class="fact4">
-                        <img src="Images/image4.png" alt="Ethiopian cities i've seen" class="f4">
-                        <p>Ethiopian cities i've seen</p>
+                    <div class="mx-3 -mt-8">
+                        <img src="../Images/image4.png" alt="Ethiopian cities i've seen" class="rounded-full lg:w-80 lg:h-44 lg:mt-2 md:w-64 md:h-32 md:mt-6 sm:w-36 sm:h-28 sm:mt-14 sm:ml-24">
+                        <p class="mt-1 sm:ml-20 ">Ethiopian cities i've seen</p>
                     </div>
-                    <div class="fact5">
-                        <img src="Images/image5.png" alt="Years i've learned" class="f5">
-                        <p>Years i've learned</p>
+                    <div class="mx-3">
+                        <img src="../Images/image5.png" alt="Years i've learned" class="lg:h-32 sm:w-24 sm:h-24 sm:mt-14 sm:ml-32 md:mt-6 lg:w-28">
+                        <p class="mt-6 sm:ml-24">Years i've learned</p>
                     </div>
-                    <div class="fact6">
-                        <img src="Images/image6.jpg" alt="Siblings i have" class="f6">
-                        <p>Siblings i have</p>
-                    </div>
+                    <div class="mx-3">
+                        <img src="../Images/image6.jpg" alt="Siblings i have" class="rounded-full lg:w-32 lg:h-32 sm:w-24 sm:h-24 sm:mt-14 sm:ml-28
+                        md:-mt-0">
+                        <p class="mt-6 sm:ml-28">Siblings i have</p>
+                
 
-                    
+                 </div>   
                 </div>
-                    <div class="columns">
 
-                        <div class="Column1">
-                            <h2>Hobbies</h2>
+                    <div class="md:flex md:mt-8 md:ml-4 md:flex-row sm:mt-20 sm:ml-20">
+
+                        <div class="flex-1">
+                            <h2 class="text-red-700 font-bold my-4 lg:text-2xl md:text-xl ">Hobbies</h2>
                             <ul>
                                 <li>Reading Books</li>
                                 <li>Watching Movies</li>
@@ -79,10 +77,8 @@
                                 <li>Playing Football</li>
                             </ul>
                         </div>
-                    </div>
-            
-                        <div class="Column2">
-                            <h2>Educational Background</h2>
+                        <div class="md:flex-1  md:mr-8 lg:mb-6 md:-ml-14 lg:flex-1 sm:mt-16 md:mt-0">
+                            <h2 class="text-red-700 font-bold my-4 lg:text-2xl md:text-xl border-red-600 ">Educational Background</h2>
                             <ol>
                                 <li>Learned in deborah at pre-school</li>
                                 <li>Learned at school of Aygoda at elementary and middle school </li>
@@ -92,8 +88,8 @@
                             </ol>
                         </div>
                     
-                        <div class="Column3">
-                            <h2>Places I've planned to visit</h2>
+                        <div class="md:flex-1 md:-ml-10 sm:mt-16 md:mt-0">
+                            <h2 class="text-red-700 font-bold my-4 lg:text-2xl md:text-xl">Places I've planned to visit</h2> 
                             <ul>
                                 <li>Bora Bora Island</li>
                                 <li>Faroe Islands</li>
@@ -102,11 +98,12 @@
                                 <li>Bahirdar</li>
                             </ul>
                         </div>
-                
-        </div>
-        </div>
-        <footer>
-            <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
-        </footer>
+                    </div>
+        
+                        <footer class=" bg-gray-600 py-7 w-full bottom-0 flex items-center justify-center text-white">
+                            <div>
+                            <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+                            </div>
+                        </footer>
     </body>
 </html>

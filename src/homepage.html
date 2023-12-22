@@ -4,33 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="stylesheet" href="dist/output.css">
 
 </head>
 <body>
-    <div id="header">
-        <div class="container" > 
-            <img src="Images/BackgroundPicture.avif" alt="background for the web">
-            <nav>
-                <img src="Images/Logo1.png" alt="Picture of a logo" class="logo">
->
-                <ul>
-                    <li class="special"><a href="#">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="skills.html">Skills</a></li>
-                    <li><a href="resume.html">Resume</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+        <div class="parent"> 
+            <nav class="bg-gray-600 flex h-16 md:items-center md:justify-between md:p-5 sm:items-center sm:justify-between">
+                <img src="../Images/Logo1.png" alt="Picture of a logo" class="xl:w-36 sm:w-16 md:w-32 ">
+               <ul class="flex items-center text-white">
+                    <li class="hover:text-black duration-500 md:text-lg md:mx-4 sm:-ml-4 sm:mx-2"><a href="#">Home</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="about.html">About</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="skills.html">Skills</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="resume.html">Resume</a></li>
+                    <li class="hover:text-white duration-500 md:text-lg md:mx-4 sm:mx-2"><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
-            <div class="photo">
-                <img src="Images/robot.jpg" alt="Photo of eyoab amare" >
+            <div class="flex md:mx-72 md:mt-8 sm:ml-24 sm:mt-20  md:-mb-2">
+                <img src="../Images/robot.jpg" alt="Photo of eyoab amare" class="md:w-48 sm:w-44 sm:h-50 lg:ml-32 lg:mt-28 xl:ml-80 xl:mb-10 xl:mt-28">
             </div>
-            <div class="text">
-                <h1>My name is EYOAB AMARE</h1>
-                <p>I'm a software Engineering Student</p>
+            <div class="flex items-center justify-center flex-nowrap mt-4 mb-4">
+                <h1 class="text-center text-orange-800 font-bold text-xl sm:mb-9 lg:mt-20 xl:text-4xl lg:text-3xl">My name is EYOAB AMARE</h1>
             </div>
-        </div>
-        <footer>
+            <div class="flex items-center justify-center flex-nowrap mb-3 lg:mb-12 ">
+                <p class="text-center text-orange-800 md:font-semibold lg:-mt-6 lg:mb-64 md:-mt-6 xl:mb-52 xl:text-3xl sm:mb-32 md:mb-56 lg:text-xl">I'm a software Engineering Student</p>
+            </div>
+        <footer class=" bg-gray-600 py-7 w-full bottom-0 flex items-center justify-center text-white md:-mt-16 lg:py-10">
+            <div>
             <p>Contact: eyoabamare3@gmail.com | 09-77-34-21-60</p>
+            </div>
         </footer>
     </div>
 </body>
